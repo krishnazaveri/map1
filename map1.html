@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map example2</title>
+</head>
+<body>
+    
+
+    <script>
+
+        const details = [
+            {name:"Krishna" , course : "wd"},
+            {name:"Heer" , course : "php"},
+            {name:"Pranjal" , course : "react"},
+        ]
+
+        const data = details.map(
+            (v)=>
+            {return v.name + ":" + v.course}
+        )
+
+        //console.log(details[2].course)
+
+        console.log(data)
+
+    </script>
+</body>
+</html>
